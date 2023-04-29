@@ -8,7 +8,7 @@ body {
 
 /* Set up the header styles */
 header {
-    background-color: #a9bfd6;
+    background-color: #8d40a7;
     text-align: center;
     padding: 20px;
 }
@@ -20,7 +20,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: #6fa3d7;
+    background-color: #6f3a92;
 }
 
 /* Set up the section styles */
