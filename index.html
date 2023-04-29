@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+      <title>Ayati's Website</title>
+      <!-- <author>Ayati Sharma</author> --> 
+      <meta name="author" content="Ayati Sharma">
+    </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#about-section">About Me</a></li>
+        <li><a href="#work-section">Work</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Hi, I'm Ayati!</h1>
+    </header>
+    <main>
+      <section id="about-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm a sophomore at UC Berkeley from India studying computer science and data science and minoring in bioengineering. </p>
+        <h3>Background</h3>
+        <h4>
+        <ul>
+            <li><h5>Sophomore at UC Berkeley</h5> <h6>2019-2023</h6></li>
+            <li><h5>Double Major</h5><h6>Computer Science and Data Science</h6></li>
+          </ul>
+        </h4>
+        <p>I enjoy reading, building with legos, card/board games, and spending time with friends.</p>
+        <p> I'm deeply interested in software development and machine learning, and am passionate about exploring their applications in genomics, neuroscience and molecular therapeutic development. 
+            I'm also highly passionate about teaching, art history and dancing. </p>
+      </section>
+      <section id="work-section" class="work">
+        <h2>My Work</h2>
+        <div>
+          <h3>iSono Health</h3>
+          <img src="./isonohealth.png" alt="Project 1" class="work">
+          <p>Incoming ML engineering intern</p>
+        </div>
+        <div>
+          <h3>Conboy Lab</h3>
+          <p>Collaborating to develop a pipeline to conduct health assay analysis to determine the mechanism governing oxytocin and ALK5-
+            inhibitor induced depletion of senescent cell levels. Working under Cameron Kato and Dr. Irina Conboy.</p>
+        </div>
+        <div>
+            <h3>UC Berkeley EECS Department</h3>
+            <p> Working on course staff as a tutor for CS 61B - Data Structures and Algorithms. s</p>
+          </div>
+      </section>
+      <section id="contact-section">
+        <h2>Contact Me</h2>
+        <p>You can find me here:</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/ayati17/" target="_blank">LinkedIn</a></li>
+          <li><a href="github.com/ayati17" target="_blank">GitHub</a></li>
+        </ul>
+        <p>You can also email me at <a href="mailto:ayati.sharma@berkeley.edu">ayati.sharma@berkeley.edu</a>.</p>
+      </section>
+    </main>
+    <form>
+      <label for="input">Secret Password:</label>
+      <input type="text" id="input">
+      <button type="submit" onclick="checkName(event)">Submit</button>
+    </form>
+    <script>
+      function checkName(event) {
+        console.log("here1");
+        event.preventDefault();
+        const nameInput = document.getElementById('input');
+        console.log("here2");
+        if (nameInput.value.toLowerCase() === 'richard west') {
+          console.log("here3");
+          window.open('https://zaqqazzaq.github.io/', '_blank');
+          console.log("here4");
+        }
+      }
+      </script>
+  </body>
+</html>
