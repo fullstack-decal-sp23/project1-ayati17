@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Avenir', sans-serif;
     background-color: #181a1d;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Set up the header styles */
@@ -46,19 +46,19 @@ section {
 }
 
 #contact-section {
-    background-color: #042948;
+    background-color: #6d0d87;
     font: 'Avenir';
 }
 
 /* Set up the link styles */
 a {
-    color: #76b9ed;
+    color: #a9209e;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #e7eff9;
+    color: #8e2da4;
 }
 
 /* Set up the button styles */
@@ -118,14 +118,14 @@ label {
 input[type="text"] {
     padding: 10px;
     border-radius: 30px;
-    border: 1px solid #76b9ed;
+    border: 1px solid #ac1bc8;
     background-color: #0a0c0e;
     color: #fff;
 }
 
 input[type="submit"] {
     padding: 15px 30px;
-    background-color: #76b9ed;
+    background-color: #8919b2;
     color: #fff;
     border: none;
     border-radius: 30px;
