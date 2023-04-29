@@ -193,9 +193,9 @@ nav {
   }
 
   img.work {
-    width: 100px;
-    height: 100px;
-    align-items: center;
+    width: 150px;
+    height: 150px;
+    align-items: left;
     justify-content: center;
     justify-self: center;
     align-self: center;
