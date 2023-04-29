@@ -30,14 +30,14 @@ section {
     padding: 20px;
     margin: 20px;
     border-radius: 30px;
-    background-color: #0a0c0e;
+    background-color: #8e12a4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     
 }
 
 /* Set up the work section styles */
 .work {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     justify-content: center;
@@ -195,7 +195,7 @@ nav {
   img.work {
     width: 150px;
     height: 150px;
-    align-items: left;
+    align-items: right;
     justify-content: center;
     justify-self: center;
     align-self: center;
